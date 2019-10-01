@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_add_profession"
+        android:icon="@drawable/icon_arrow"
+        android:title="Add Profession" />
+    <item
+        android:id="@+id/action_payday"
+        android:icon="@drawable/icon_arrow"
+        android:title="Today is Pay Day" />
+
+    <item android:title="Navigate To">
+        <menu>
+            <item
+                android:id="@+id/overview"
+                android:icon="@drawable/icon_overview"
+                android:title="@string/overview" />
+            <item
+                android:id="@+id/income_statement"
+                android:icon="@drawable/icon_income"
+                android:title="@string/income_statement" />
+            <item
+                android:id="@+id/balance_sheet"
+                android:icon="@drawable/icon_balance_sheet"
+                android:title="@string/balance_sheet" />
+        </menu>
+    </item>
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/action_instructions"
+                android:title="Instructions" />
+        </menu>
+    </item>
+</menu>

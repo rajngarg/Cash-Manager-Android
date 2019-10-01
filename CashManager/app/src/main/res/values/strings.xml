@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CashFlow</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="income">Income</string>
+    <string name="expenses">Expenses</string>
+    <string name="assets">Assets</string>
+    <string name="liabilities">Liabilities</string>
+    <string name="overview">Overview</string>
+    <string name="income_statement">Statements</string>
+    <string name="balance_sheet">Balance Sheet</string>
+    <string name="instructions_title">For understanding this tool you have to know the difference between Assets and Liabilities.
+        There are two terms: Assets and Liabilities.</string>
+    <string name="instructions_assets">Assets puts money into your pocket.\n
+        Assets provides Passive Income like rental property, stocks etc.</string>
+    <string name="instructions_liabilities">Liablities are those which takes out money from your pocket like your debt,car etc.</string>
+    <string name="instructions_passiveIncome">Assets provides a positive Cashflow while Liabilities gives you a negative Cashflow.\n\n
+    When you got more Passive Income than your expenses then you can financially free and you can quit your job.\n\n
+        Progress Bar at the main shows the Passive Income versus your Expenses.\n\n
+        Use as your tool to the path of Financial Freedom.
+    </string>
+    <string name="wish">Wish you a very good luck on your journey to Financial Freedom</string>
+</resources>
