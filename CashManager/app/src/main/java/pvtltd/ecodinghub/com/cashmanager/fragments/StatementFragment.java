@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 
 import java.util.Objects;
 
-import pvtltd.ecodinghub.com.cashmanager.MainActivity;
+import pvtltd.ecodinghub.com.cashmanager.activities.MainActivity;
 import pvtltd.ecodinghub.com.cashmanager.R;
 import pvtltd.ecodinghub.com.cashmanager.adapters.TabsAdapter;
 import pvtltd.ecodinghub.com.cashmanager.fragments.statements.ExpensesFragment;

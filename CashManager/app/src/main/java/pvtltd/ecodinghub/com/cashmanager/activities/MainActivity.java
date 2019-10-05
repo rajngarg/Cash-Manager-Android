@@ -1,4 +1,4 @@
-package pvtltd.ecodinghub.com.cashmanager;
+package pvtltd.ecodinghub.com.cashmanager.activities;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -9,6 +9,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.core.view.GravityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -24,6 +25,7 @@ import android.widget.TextView;
 import com.kennyc.bottomsheet.BottomSheet;
 import com.kennyc.bottomsheet.BottomSheetListener;
 
+import pvtltd.ecodinghub.com.cashmanager.R;
 import pvtltd.ecodinghub.com.cashmanager.fragments.BalanceSheetFragment;
 import pvtltd.ecodinghub.com.cashmanager.fragments.OverviewFragment;
 import pvtltd.ecodinghub.com.cashmanager.fragments.StatementFragment;
@@ -93,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, InstructionsActivity.class));
                     //Snackbar.make(findViewById(android.R.id.content), "Under Development", Snackbar.LENGTH_SHORT).show();
                 }
-                drawerLayout.closeDrawer(Gravity.START);
+                drawerLayout.closeDrawer(GravityCompat.START);
                 return true;
             }
         });

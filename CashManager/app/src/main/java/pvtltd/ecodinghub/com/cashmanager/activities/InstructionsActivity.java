@@ -1,8 +1,10 @@
-package pvtltd.ecodinghub.com.cashmanager;
+package pvtltd.ecodinghub.com.cashmanager.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
+import pvtltd.ecodinghub.com.cashmanager.R;
+
 import android.view.View;
 
 public class InstructionsActivity extends AppCompatActivity {

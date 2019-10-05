@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import pvtltd.ecodinghub.com.cashmanager.MainActivity;
+import pvtltd.ecodinghub.com.cashmanager.activities.MainActivity;
 import pvtltd.ecodinghub.com.cashmanager.R;
 import pvtltd.ecodinghub.com.cashmanager.adapters.TabsAdapter;
 import pvtltd.ecodinghub.com.cashmanager.fragments.balance_sheet.LiabilitiesFragment;

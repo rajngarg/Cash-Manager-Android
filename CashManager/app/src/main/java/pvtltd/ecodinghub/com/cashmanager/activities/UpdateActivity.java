@@ -1,4 +1,4 @@
-package pvtltd.ecodinghub.com.cashmanager;
+package pvtltd.ecodinghub.com.cashmanager.activities;
 
 import android.database.Cursor;
 
@@ -10,6 +10,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 
+import pvtltd.ecodinghub.com.cashmanager.R;
 import pvtltd.ecodinghub.com.cashmanager.helpers.DatabaseHelper;
 
 public class UpdateActivity extends AppCompatActivity {

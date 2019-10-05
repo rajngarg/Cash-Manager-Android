@@ -1,4 +1,4 @@
-package pvtltd.ecodinghub.com.cashmanager;
+package pvtltd.ecodinghub.com.cashmanager.activities;
 
 import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -10,6 +10,7 @@ import android.widget.EditText;
 
 import java.util.Objects;
 
+import pvtltd.ecodinghub.com.cashmanager.R;
 import pvtltd.ecodinghub.com.cashmanager.helpers.SharedPreferenceHelper;
 
 

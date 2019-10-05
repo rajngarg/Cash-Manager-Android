@@ -17,7 +17,7 @@ import com.kennyc.bottomsheet.BottomSheetListener;
 import io.github.luizgrp.sectionedrecyclerviewadapter.SectionParameters;
 import io.github.luizgrp.sectionedrecyclerviewadapter.StatelessSection;
 import pvtltd.ecodinghub.com.cashmanager.R;
-import pvtltd.ecodinghub.com.cashmanager.UpdateActivity;
+import pvtltd.ecodinghub.com.cashmanager.activities.UpdateActivity;
 import pvtltd.ecodinghub.com.cashmanager.helpers.DatabaseHelper;
 
 public class BalanceSheetAdapter extends StatelessSection implements BottomSheetListener {
